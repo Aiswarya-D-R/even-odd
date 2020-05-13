@@ -2,7 +2,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:oddeven/operpg.dart';
+import 'package:oddeven/views/operpg.dart';
 
 void main()
 {

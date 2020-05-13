@@ -22,17 +22,10 @@ class _OperpgState extends State<Operpg> {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-    /* gradient: LinearGradient(
-          colors: [
-            Colors.indigoAccent,
-            Colors.green,
-          ],
-        ),*/
-        image: DecorationImage(
-          image:AssetImage("images/backgrd.jpeg"),
-          fit: BoxFit.fill,
-        )
-      ),
+          image: DecorationImage(
+        image: AssetImage("images/backgrd.jpeg"),
+        fit: BoxFit.fill,
+      )),
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -57,7 +50,8 @@ class _OperpgState extends State<Operpg> {
                     //SizedBox(height: 15.0,),
                     Text(
                       "ODD OR EVEN",
-                      style: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),
+                      style: TextStyle(
+                          fontSize: 25.0, fontWeight: FontWeight.bold),
                     ),
                     SizedBox(
                       height: 35.0,
@@ -126,7 +120,7 @@ class _OperpgState extends State<Operpg> {
                       height: 50.0,
                       child: Center(
                           child: Text(
-                        "NUMBER IS "+msg,
+                        "NUMBER IS " + msg,
                         style: TextStyle(fontSize: 25.0, color: Colors.white),
                       )),
                     )
